@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: I2P 2018
+title: Intro to Probability 2018
 subtitle:
-description:
+description: 
 keywords:
 author: Kno Tsao
 language:
@@ -14,7 +14,7 @@ timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://chtsao.github.io/i2p2018
-root: /i2p2018
+root: /i2p2018/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: minos
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

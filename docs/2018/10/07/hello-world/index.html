@@ -1,175 +1,318 @@
 <!DOCTYPE html>
-<html>
+<html class="has-navbar-fixed-top">
 <head>
-  <meta charset="utf-8">
-  
+    <meta charset="utf-8">
+<title>Intro to Probability - Intro to Probability 2018</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
-  <title>Intro to Probability | I2P 2018</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="OverviewClass Info">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.css">
+
+
+
+
+
+
+    <meta name="description" content="OverviewDe Finetti, 寫了兩大巨冊機率論的機率學者, 一言總結他書的要點   Probability does not exist.   機率不存在  機率不存在，那他在寫什麼？我們這門課又在學些什麼呢？其實，他是以文字矛盾來吸引我們的注意。但不只如此，他以很反諷的方式來提示—機率是我們思想的建構，它不是像石頭、飛鳥一樣的具體實際的物件，而是我們腦中所構想的概念。更重要的每個人也">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Intro to Probability">
 <meta property="og:url" content="https://chtsao.github.io/i2p2018/2018/10/07/hello-world/index.html">
-<meta property="og:site_name" content="I2P 2018">
-<meta property="og:description" content="OverviewClass Info">
+<meta property="og:site_name" content="Intro to Probability 2018">
+<meta property="og:description" content="OverviewDe Finetti, 寫了兩大巨冊機率論的機率學者, 一言總結他書的要點   Probability does not exist.   機率不存在  機率不存在，那他在寫什麼？我們這門課又在學些什麼呢？其實，他是以文字矛盾來吸引我們的注意。但不只如此，他以很反諷的方式來提示—機率是我們思想的建構，它不是像石頭、飛鳥一樣的具體實際的物件，而是我們腦中所構想的概念。更重要的每個人也">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-10-07T09:06:59.911Z">
+<meta property="og:updated_time" content="2018-10-26T08:09:07.129Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Intro to Probability">
-<meta name="twitter:description" content="OverviewClass Info">
-  
-    <link rel="alternate" href="/i2p2018/atom.xml" title="I2P 2018" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/i2p2018/css/style.css">
+<meta name="twitter:description" content="OverviewDe Finetti, 寫了兩大巨冊機率論的機率學者, 一言總結他書的要點   Probability does not exist.   機率不存在  機率不存在，那他在寫什麼？我們這門課又在學些什麼呢？其實，他是以文字矛盾來吸引我們的注意。但不只如此，他以很反諷的方式來提示—機率是我們思想的建構，它不是像石頭、飛鳥一樣的具體實際的物件，而是我們腦中所構想的概念。更重要的每個人也">
+
+
+
+
+
+<link rel="icon" href="/favicon.png">
+
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ovo|Source+Code+Pro">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/css/lightgallery.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/css/justifiedGallery.min.css">
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+
+<link rel="stylesheet" href="/i2p2018/css/style.css">
+
+<script defer src="//use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+
+    
+    
+    
+    
+    
+    
+
+    
+
+
 </head>
-
 <body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/i2p2018/" id="logo">I2P 2018</a>
-      </h1>
-      
+    
+<nav class="navbar is-transparent is-fixed-top navbar-main" role="navigation" aria-label="main navigation">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item navbar-logo" href="/i2p2018/">
+                
+                <img src="/i2p2018/images/logo.png" alt="" height="28">
+                
+            </a>
+            <div class="navbar-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+        <div class="navbar-menu navbar-start">
+            
+            <a class="navbar-item "
+               href="/i2p2018/archives">Archives</a>
+            
+            <a class="navbar-item "
+               href="/i2p2018/categories/LifeStyle">Lifestyle</a>
+            
+            <a class="navbar-item "
+               href="/i2p2018/categories/Music">Music</a>
+            
+            <a class="navbar-item "
+               href="/i2p2018/categories/Technology">Technology</a>
+            
+            <a class="navbar-item "
+               href="/i2p2018/about">About</a>
+            
+        </div>
+        
+        <div class="navbar-menu navbar-end">
+            
+            <a class="navbar-item search" title="Search" href="javascript:;">
+                <i class="fas fa-search"></i>
+            </a>
+            
+            
+            
+            <a class="navbar-item" title="GitHub" href="https://github.com/ppoffice/hexo-theme-minos">
+                
+                <i class="fab fa-github"></i>
+                
+            </a>
+               
+            
+        </div>
     </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/i2p2018/">Home</a>
-        
-          <a class="main-nav-link" href="/i2p2018/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/i2p2018/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://chtsao.github.io/i2p2018"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/i2p2018/2018/10/07/hello-world/" class="article-date">
-  <time datetime="2018-10-07T09:05:34.000Z" itemprop="datePublished">2018-10-07</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      Intro to Probability
-    </h1>
-  
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><h3 id="Class-Info"><a href="#Class-Info" class="headerlink" title="Class Info"></a>Class Info</h3>
-      
+    <section class="section">
+    <div class="container">
+    <article class="article content gallery" itemscope itemprop="blogPost">
+    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
+        
+            Intro to Probability
+        
+    </h1>
+    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
+        <span class="column is-narrow">
+            <time datetime="2018-10-07T09:05:34.000Z" itemprop="datePublished">Oct 7 2018</time>
+        </span>
+        
+        
+        <span class="column is-narrow">
+            
+            
+            2 minutes read (About 359 words)
+        </span>
+        
     </div>
-    <footer class="article-footer">
-      <a data-url="https://chtsao.github.io/i2p2018/2018/10/07/hello-world/" data-id="cjmyn09zv0000oijcbulv0tay" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
+    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
     
-  
+        <h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><p>De Finetti, 寫了兩大巨冊機率論的機率學者, 一言總結他書的要點 </p>
+<blockquote>
+<p>Probability does not exist.</p>
+</blockquote>
+<blockquote>
+<p>機率不存在</p>
+</blockquote>
+<p>機率不存在，那他在寫什麼？我們這門課又在學些什麼呢？<br>其實，他是以文字矛盾來吸引我們的注意。但不只如此，他以很反諷的方式來提示—機率是我們思想的建構，它不是像石頭、飛鳥一樣的具體實際的物件，而是我們腦中所構想的概念。更重要的每個人也可能不近相同，而時有不一致或矛盾的發生。</p>
+<p>因此，建立一個不矛盾的架構，或大致上沒有不一致的機率規範，是讓我們了解機率，避免錯誤的一個開始。</p>
+<p>這課是機率的第一門課。簡單總結，就是</p>
+<p>$$ x \Rightarrow  X.$$</p>
+<h3 id="Class-Info"><a href="#Class-Info" class="headerlink" title="Class Info"></a>Class Info</h3><ul>
+<li><a href="http://faculty.ndhu.edu.tw/~chtsao/edu/18/i2p/i2p2018.AM__2080AA.pdf" target="_blank" rel="noopener">Syllabus</a>    Navigator: C. Andy Tsao  Office: SE A411.  Tel: 3520</li>
+<li>Lectures: Tue. 1310-1500, Thr. 1610-1700 @ AE 211<br>Office Hours:  Mon. 15:10-16:00, Thr. 12:10-13:00. @ SE A411 or by appointment. (Mentor Hour: Mon, Tue 1200-1300.)</li>
+<li>TA: 劉雅涵 何尚謙 Tel: 3517. ＠A408. Office Hour;<ul>
+<li>雅涵: 星期二 16:00-18:00</li>
+<li>尚謙: 星期四 17:10-19:10 除了11/01(四)因有事,改為10/31(三) 17:00-19:00</li>
+</ul>
+</li>
+<li>Prerequisites: Calculus</li>
+<li>Textbook:  Dekking, Kraaikamp, Lopuhaä and Meester (2005). A Modern Introduction to Probabilit and Statistics: Understanding Why and How. Springer, London. <a href="http://134.208.29.176:8080/toread/opac/bibliographic_view?NewBookMode=false&amp;id=766570&amp;q=Modern+Introduction+to+Probability+and+STatistics&amp;start=0&amp;view=CONTENT" target="_blank" rel="noopener">Legal downloadable from NDHU</a></li>
+<li>期中考：11/6 (二) 1310–1440. </li>
+</ul>
+
+    
+    </div>
+    
+    
 </article>
 
+
+<div class="sharebox">
+    
+<div class="notification is-danger">
+    You need to set <code>install_url</code> to use ShareThis. Please set it in <code>_config.yml</code>.
+</div>
+
+</div>
+
+
+
+<div class="comments">
+    <h3 class="title is-4">Comments</h3>
+    
+<div id="disqus_thread">
+    
+    <div class="notification is-danger">
+        You forgot to set the <code>shortname</code> for Disqus. Please set it in <code>_config.yml</code>.
+    </div>
+    
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</div>
+
+    </div>
 </section>
-        
-          <aside id="sidebar">
-  
-    
+    <footer class="footer">
+    <div class="container">
+        <div class="columns content">
+            <div class="column is-narrow has-text-centered">
+                &copy; 2018 Kno Tsao&nbsp;
+                Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> & <a
+                        href="http://github.com/ppoffice/hexo-theme-minos">Minos</a>
+            </div>
+            <div class="column is-hidden-mobile"></div>
 
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/i2p2018/archives/2018/10/">October 2018</a></li></ul>
+            
+            <div class="column is-narrow">
+                <div class="columns is-mobile is-multiline is-centered">
+                
+                    
+                <a class="column is-narrow has-text-black" title="GitHub" href="https://github.com/ppoffice/hexo-theme-minos">
+                    
+                    GitHub
+                    
+                </a>
+                
+                </div>
+            </div>
+            
+            
+        </div>
     </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/i2p2018/2018/10/07/hello-world/">Intro to Probability</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2018 Kno Tsao<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
 </footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/i2p2018/" class="mobile-nav-link">Home</a>
-  
-    <a href="/i2p2018/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
+
+<!-- test if the browser is outdated -->
+<div id="outdated">
+    <h6>Your browser is out-of-date!</h6>
+    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">Update my browser now </a></p>
+    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // plugin function, place inside DOM ready function
+        outdatedBrowser({
+            bgColor: '#f25648',
+            color: '#ffffff',
+            lowerThan: 'flex'
+        })
+    });
+</script>
+
+<script>
+    window.FontAwesomeConfig = {
+        searchPseudoElements: true
+    }
+    moment.locale("default");
+</script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script>
+    MathJax.Hub.Config({
+        "HTML-CSS": {matchFontHeight: false},
+        SVG: {matchFontHeight: false},
+        CommonHTML: {matchFontHeight: false}
+    });
+</script>
+
+    
+    
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/js/lightgallery-all.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/js/jquery.justifiedGallery.min.js"></script>
+<script>
+    (function ($) {
+        $(document).ready(function () {
+            if (typeof($.fn.lightGallery) === 'function') {
+                $('.article.gallery').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof($.fn.justifiedGallery) === 'function') {
+                $('.justified-gallery').justifiedGallery();
+            }
+        });
+    })(jQuery);
+</script>
+
+    
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  <link rel="stylesheet" href="/i2p2018/fancybox/jquery.fancybox.css">
-  <script src="/i2p2018/fancybox/jquery.fancybox.pack.js"></script>
+    
 
 
 <script src="/i2p2018/js/script.js"></script>
 
-
-
-  </div>
+    
+    <div class="searchbox ins-search">
+    <div class="searchbox-mask"></div>
+    <div class="searchbox-container ins-search-container">
+        <div class="searchbox-input-wrapper">
+            <input type="text" class="searchbox-input ins-search-input" placeholder="Type something..." />
+            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="searchbox-result-wrapper ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: 'Posts',
+                PAGES: 'Pages',
+                CATEGORIES: 'Categories',
+                TAGS: 'Tags',
+                UNTITLED: '(Untitled)',
+            },
+            CONTENT_URL: '/i2p2018/content.json',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script src="/i2p2018/js/insight.js"></script>
+    
 </body>
 </html>
