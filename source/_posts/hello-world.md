@@ -5,9 +5,7 @@ date: 2018-10-07 17:05:34
 
 ## Overview
 De Finetti, 寫了兩大巨冊機率論的機率學者, 一言總結他書的要點 
-> Probability does not exist.
-
-> 機率不存在
+> Probability does not exist.     機率不存在
 
 機率不存在，那他在寫什麼？我們這門課又在學些什麼呢？
 其實，他是以文字矛盾來吸引我們的注意。但不只如此，他以很反諷的方式來提示---機率是我們思想的建構，它不是像石頭、飛鳥一樣的具體實際的物件，而是我們腦中所構想的概念。更重要的每個人也可能不近相同，而時有不一致或矛盾的發生。
@@ -16,7 +14,7 @@ De Finetti, 寫了兩大巨冊機率論的機率學者, 一言總結他書的要
 
 這課是機率的第一門課。簡單總結，就是
 
-$$ x \Rightarrow  X.$$
+$$\Large x \Rightarrow  X.$$
 
 ### Class Info
 * [Syllabus](http://faculty.ndhu.edu.tw/~chtsao/edu/18/i2p/i2p2018.AM__2080AA.pdf)    Navigator: C. Andy Tsao  Office: SE A411.  Tel: 3520
