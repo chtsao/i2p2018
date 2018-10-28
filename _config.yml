@@ -5,11 +5,11 @@
 # Site
 title: Intro to Probability 2018
 subtitle:
-description: 
+description: Course Web I2P 2018 
 keywords:
 author: Kno Tsao
 language:
-timezone:
+timezone: Asia/Taipei
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
