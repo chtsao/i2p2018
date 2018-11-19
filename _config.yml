@@ -8,7 +8,7 @@ subtitle:
 description: Course Web I2P 2018 
 keywords:
 author: Kno Tsao
-language:
+language: en
 timezone: Asia/Taipei
 
 # URL
@@ -25,6 +25,7 @@ tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
+#i18n_dir: :lang
 i18n_dir: :lang
 skip_render:
 

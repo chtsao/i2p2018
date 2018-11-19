@@ -2,7 +2,7 @@
 <html class="has-navbar-fixed-top">
 <head>
     <meta charset="utf-8">
-<title>Archives: 2018/11 - Intro to Probability 2018</title>
+<title>Midterm Exam 期中考 - Intro to Probability 2018</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.css">
@@ -14,16 +14,17 @@
 
 
 
-    <meta name="description" content="Course Web I2P 2018">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Intro to Probability 2018">
-<meta property="og:url" content="https://chtsao.github.io/i2p2018/archives/2018/11/index.html">
+    <meta name="description" content="基礎機率期中考 時間：11/6 (二). 1310-1440。  地點： A210: 學號  大於等於  410511322 同學 A316: 學號   小於 410511322 同學   範圍：上課及習題內容。 其他：No cheatsheet nor mobile phone. Prepare early and Good Luck!  期中考成績統計   Min. Q1 Median Mea">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Midterm Exam 期中考">
+<meta property="og:url" content="https://chtsao.github.io/i2p2018/2018/11/05/w08/index.html">
 <meta property="og:site_name" content="Intro to Probability 2018">
-<meta property="og:description" content="Course Web I2P 2018">
+<meta property="og:description" content="基礎機率期中考 時間：11/6 (二). 1310-1440。  地點： A210: 學號  大於等於  410511322 同學 A316: 學號   小於 410511322 同學   範圍：上課及習題內容。 其他：No cheatsheet nor mobile phone. Prepare early and Good Luck!  期中考成績統計   Min. Q1 Median Mea">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2018-11-19T20:47:05.540Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Intro to Probability 2018">
-<meta name="twitter:description" content="Course Web I2P 2018">
+<meta name="twitter:title" content="Midterm Exam 期中考">
+<meta name="twitter:description" content="基礎機率期中考 時間：11/6 (二). 1310-1440。  地點： A210: 學號  大於等於  410511322 同學 A316: 學號   小於 410511322 同學   範圍：上課及習題內容。 其他：No cheatsheet nor mobile phone. Prepare early and Good Luck!  期中考成績統計   Min. Q1 Median Mea">
 
 
 
@@ -106,28 +107,108 @@
 
     <section class="section">
     <div class="container">
-    
-    
-        <div class="archive content">
-            <h4 class="title is-4" id="2018">2018</h4>
-            <div class="articles">
+    <article class="article content gallery" itemscope itemprop="blogPost">
+    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
+        
+            Midterm Exam 期中考
+        
+    </h1>
+    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
+        <span class="column is-narrow">
+            <time datetime="2018-11-04T20:51:37.000Z" itemprop="datePublished">Nov 5 2018</time>
+        </span>
+        
+        
+        <span class="column is-narrow">
             
-                <div class="article content>">
-                    <time class="is-text-small" datetime="2018-11-15T00:43:33.000Z" itemprop="datePublished">
-                        Nov 15</time>
-                    <h6 class="title is-6"><a href="/i2p2018/2018/11/15/w10/">Week 10. Continuous Random Variable-II</a></h6>
-                </div>
             
-                <div class="article content>">
-                    <time class="is-text-small" datetime="2018-11-04T20:51:37.000Z" itemprop="datePublished">
-                        Nov 5</time>
-                    <h6 class="title is-6"><a href="/i2p2018/2018/11/05/w08/">Midterm Exam 期中考</a></h6>
-                </div>
-            
-            </div>
-        </div>
+            a minute read (About 136 words)
+        </span>
+        
+    </div>
+    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
+    
+        <h1 id="基礎機率期中考"><a href="#基礎機率期中考" class="headerlink" title="基礎機率期中考"></a>基礎機率期中考</h1><ul>
+<li>時間：11/6 (二). 1310-1440。 </li>
+<li>地點：<ul>
+<li>A210: 學號  大於等於  410511322 同學</li>
+<li>A316: 學號   小於 410511322 同學</li>
+</ul>
+</li>
+<li>範圍：上課及習題內容。</li>
+<li>其他：No cheatsheet nor mobile phone. Prepare early and Good Luck!</li>
+</ul>
+<h2 id="期中考成績統計"><a href="#期中考成績統計" class="headerlink" title="期中考成績統計"></a>期中考成績統計</h2><table>
+<thead>
+<tr>
+<th>Min.</th>
+<th>Q1</th>
+<th>Median</th>
+<th>Mean</th>
+<th>Q3</th>
+<th>Max.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.00</td>
+<td>25.00</td>
+<td>40.00</td>
+<td>41.91</td>
+<td>58.00</td>
+<td>101.00</td>
+</tr>
+</tbody>
+</table>
+<p>   n=90; Sophomore (2): 3+ = 37: 53; sd. = 20.87</p>
+<p>   The decimal point is 1 digit(s) to the right of the |</p>
+<p>   0| 00555550003355578<br>   2| 0003355589000233333555555<br>   4| 000002355780000355555578889<br>   6| 0225588000000359<br>   8| 0050<br>10| 1</p>
+<p>  顏色意義：警示  危險</p>
+<p>  <a href="http://faculty.ndhu.edu.tw/~chtsao/edu/18/i2p/mid.g2p.nb.html" target="_blank" rel="noopener">詳細分析/圖表</a><br>  Statistics2016: <a href="http://faculty.ndhu.edu.tw/~chtsao/ftp/rg.w08.nb.html" target="_blank" rel="noopener">Explore</a>, <a href="http://faculty.ndhu.edu.tw/~chtsao/ftp/rg.w09.nb.html" target="_blank" rel="noopener">Analysis</a></p>
+
+    
+    </div>
     
     
+    <div class="columns is-mobile is-multiline article-nav">
+        <span class="column is-12-mobile is-half-desktop  article-nav-prev">
+            
+            <a href="/i2p2018/2018/11/15/w10/">Week 10. Continuous Random Variable-II</a>
+            
+        </span>
+        <span class="column is-12-mobile is-half-desktop  article-nav-next">
+            
+            <a href="/i2p2018/2018/10/27/w07mid/">Week 7.5.  Midterm 11/6 (二)</a>
+            
+        </span>
+    </div>
+    
+</article>
+
+
+<div class="sharebox">
+    
+<div class="notification is-danger">
+    You need to set <code>install_url</code> to use ShareThis. Please set it in <code>_config.yml</code>.
+</div>
+
+</div>
+
+
+
+<div class="comments">
+    <h3 class="title is-4">Comments</h3>
+    
+<div id="disqus_thread">
+    
+    <div class="notification is-danger">
+        You forgot to set the <code>shortname</code> for Disqus. Please set it in <code>_config.yml</code>.
+    </div>
+    
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</div>
+
     </div>
 </section>
     <footer class="footer">
