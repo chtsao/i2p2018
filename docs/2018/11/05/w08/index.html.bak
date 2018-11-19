@@ -21,7 +21,7 @@
 <meta property="og:site_name" content="Intro to Probability 2018">
 <meta property="og:description" content="基礎機率期中考 時間：11/6 (二). 1310-1440。  地點： A210: 學號  大於等於  410511322 同學 A316: 學號   小於 410511322 同學   範圍：上課及習題內容。 其他：No cheatsheet nor mobile phone. Prepare early and Good Luck!  期中考成績統計   Min. Q1 Median Mea">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-11-19T20:47:05.540Z">
+<meta property="og:updated_time" content="2018-11-19T21:13:43.393Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Midterm Exam 期中考">
 <meta name="twitter:description" content="基礎機率期中考 時間：11/6 (二). 1310-1440。  地點： A210: 學號  大於等於  410511322 同學 A316: 學號   小於 410511322 同學   範圍：上課及習題內容。 其他：No cheatsheet nor mobile phone. Prepare early and Good Luck!  期中考成績統計   Min. Q1 Median Mea">
@@ -164,7 +164,10 @@
 <p>   The decimal point is 1 digit(s) to the right of the |</p>
 <p>   0| 00555550003355578<br>   2| 0003355589000233333555555<br>   4| 000002355780000355555578889<br>   6| 0225588000000359<br>   8| 0050<br>10| 1</p>
 <p>  顏色意義：警示  危險</p>
-<p>  <a href="http://faculty.ndhu.edu.tw/~chtsao/edu/18/i2p/mid.g2p.nb.html" target="_blank" rel="noopener">詳細分析/圖表</a><br>  Statistics2016: <a href="http://faculty.ndhu.edu.tw/~chtsao/ftp/rg.w08.nb.html" target="_blank" rel="noopener">Explore</a>, <a href="http://faculty.ndhu.edu.tw/~chtsao/ftp/rg.w09.nb.html" target="_blank" rel="noopener">Analysis</a></p>
+<ul>
+<li><a href="http://faculty.ndhu.edu.tw/~chtsao/edu/18/i2p/mid.g2p.nb.html" target="_blank" rel="noopener">詳細分析/圖表</a></li>
+<li>Statistics2016: <a href="http://faculty.ndhu.edu.tw/~chtsao/ftp/rg.w08.nb.html" target="_blank" rel="noopener">Explore</a>, <a href="http://faculty.ndhu.edu.tw/~chtsao/ftp/rg.w09.nb.html" target="_blank" rel="noopener">Analysis</a></li>
+</ul>
 
     
     </div>
@@ -186,28 +189,7 @@
 </article>
 
 
-<div class="sharebox">
-    
-<div class="notification is-danger">
-    You need to set <code>install_url</code> to use ShareThis. Please set it in <code>_config.yml</code>.
-</div>
 
-</div>
-
-
-
-<div class="comments">
-    <h3 class="title is-4">Comments</h3>
-    
-<div id="disqus_thread">
-    
-    <div class="notification is-danger">
-        You forgot to set the <code>shortname</code> for Disqus. Please set it in <code>_config.yml</code>.
-    </div>
-    
-    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
-</div>
 
     </div>
 </section>
