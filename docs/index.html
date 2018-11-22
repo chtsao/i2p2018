@@ -110,6 +110,55 @@
         <article class="article content gallery" itemscope itemprop="blogPost">
     <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
         
+            <a href="/i2p2018/2018/11/23/w11/" itemprop="url">Week 11. Continuous Random Variable-III</a>
+        
+    </h1>
+    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
+        <span class="column is-narrow">
+            <time datetime="2018-11-22T17:26:12.000Z" itemprop="datePublished">Nov 23 2018</time>
+        </span>
+        
+        
+        <span class="column is-narrow">
+            
+            
+            2 minutes read (About 253 words)
+        </span>
+        
+    </div>
+    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
+    
+        <h2 id="Normal-Random-Variable"><a href="#Normal-Random-Variable" class="headerlink" title="Normal Random Variable"></a>Normal Random Variable</h2><ul>
+<li>\( X \sim N(\mu, \sigma^2)  \Rightarrow \frac{X - \mu}{\sigma} = Z \sim N(0,1) \).<br>這是一個非常OP的定理。因為它使得任何一般常態隨機變數的機率計算都可以轉化為標準常態隨機變數的機率計算。具體來說</li>
+<li>For any 0&lt;a&lt;b,<br>$$P(a&lt;X&lt;b)=\Phi( \frac{b-\mu}{\sigma})-\Phi(\frac{a-\mu}{\sigma})$$<br>where \( \Phi(x)=P(Z \leq x),\) cdf of \( Z \sim N(0,1).\)</li>
+<li>Properties of \( \Phi, \phi\) (cdf and pdf of standard normal Z)</li>
+<li>\( X \sim N(\mu, \sigma^2)\) <ul>
+<li>Verify that pdf of X is indeed a pdf</li>
+<li>\( E(X)=\mu,\ Var(X)= \sigma^2. \)</li>
+<li>Moment-generating function of X<br>$$M(t)=E(e^{tX}) = \exp({\mu t + \frac{\sigma^2 t^2}{2}}) $$</li>
+</ul>
+</li>
+</ul>
+<h2 id="Moment-generating-function"><a href="#Moment-generating-function" class="headerlink" title="Moment-generating function"></a>Moment-generating function</h2><p>$$M(t)=E(e^{tX}). $$</p>
+<ul>
+<li><strong>小用</strong>：計算/生成moments: for k, a positive integer<br>$$E(X^k) = M^{(k)}(0)= M^{(k)}(t) |_{t=0} $$ if exists and  \( M^{(k)}(t)\) is the k-th derivative of M(t).</li>
+<li><strong>大用</strong>：Identify the random variable. If exists, moment-generating function uniquely determines a random variable. 簡單說，mgf 唯一決定一個隨機變數。也就是說，若有兩個隨機變數有相同的 mgf 則他們有相同的分配。 </li>
+<li></li>
+</ul>
+
+    
+    </div>
+    
+    
+</article>
+
+
+
+
+    
+        <article class="article content gallery" itemscope itemprop="blogPost">
+    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
+        
             <a href="/i2p2018/2018/11/15/w10/" itemprop="url">Week 10. Continuous Random Variable-II</a>
         
     </h1>
@@ -516,58 +565,23 @@
 
 
     
-        <article class="article content gallery" itemscope itemprop="blogPost">
-    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
+    
         
-            <a href="/i2p2018/2018/10/07/hello-world/" itemprop="url">Intro to Probability</a>
-        
-    </h1>
-    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
-        <span class="column is-narrow">
-            <time datetime="2018-10-07T09:05:34.000Z" itemprop="datePublished">Oct 7 2018</time>
-        </span>
-        
-        
-        <span class="column is-narrow">
-            
-            
-            2 minutes read (About 360 words)
-        </span>
-        
+<nav class="pagination is-centered is-rounded" role="navigation" aria-label="pagination">
+    <div class="pagination-previous is-invisible is-hidden-mobile">
+        <a href="/i2p2018/page/0/">Prev</a>
     </div>
-    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
-    
-        <h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><p>De Finetti, 寫了兩大巨冊機率論的機率學者, 一言總結他書的要點 </p>
-<blockquote>
-<p>Probability does not exist.     機率不存在</p>
-</blockquote>
-<p>機率不存在，那他在寫什麼？我們這門課又在學些什麼呢？<br>其實，他是以文字矛盾來吸引我們的注意。但不只如此，他以很反諷的方式來提示—機率是我們思想的建構，它不是像石頭、飛鳥一樣的具體實際的物件，而是我們腦中所構想的概念。更重要的每個人也可能不盡相同，而時有不一致或矛盾的發生。</p>
-<p>因此，建立一個不矛盾的架構，或大致上沒有不一致的機率規範，是讓我們了解機率，避免錯誤的一個開始。</p>
-<p>這課是機率的第一門課。簡單總結，就是</p>
-<p>$$\Large x \Rightarrow  X.$$</p>
-<h3 id="Class-Info"><a href="#Class-Info" class="headerlink" title="Class Info"></a>Class Info</h3><ul>
-<li><a href="http://faculty.ndhu.edu.tw/~chtsao/edu/18/i2p/i2p2018.AM__2080AA.pdf" target="_blank" rel="noopener">Syllabus</a>    Navigator: C. Andy Tsao  Office: SE A411.  Tel: 3520</li>
-<li>Lectures: Tue. 1310-1500, Thr. 1610-1700 @ AE 211<br>Office Hours:  Mon. 15:10-16:00, Thr. 12:10-13:00. @ SE A411 or by appointment. (Mentor Hour: Mon, Tue 1200-1300.)</li>
-<li>TA: 劉雅涵 何尚謙 Tel: 3517. ＠A408. Office Hour;<ul>
-<li>雅涵: 星期二 16:00-18:00</li>
-<li>尚謙: 星期四 17:10-19:10 除了11/01(四)因有事,改為10/31(三) 17:00-19:00</li>
-</ul>
-</li>
-<li>Prerequisites: Calculus</li>
-<li>Textbook:  Dekking, Kraaikamp, Lopuhaä and Meester (2005). A Modern Introduction to Probabilit and Statistics: Understanding Why and How. Springer, London. <a href="http://134.208.29.176:8080/toread/opac/bibliographic_view?NewBookMode=false&amp;id=766570&amp;q=Modern+Introduction+to+Probability+and+STatistics&amp;start=0&amp;view=CONTENT" target="_blank" rel="noopener">Legal downloadable from NDHU</a></li>
-<li>期中考：11/6 (二) 1310–1440. </li>
-</ul>
-
-    
+    <div class="pagination-next">
+        <a href="/i2p2018/page/2/">Next</a>
     </div>
-    
-    
-</article>
-
-
-
-
-    
+    <ul class="pagination-list is-hidden-mobile">
+        
+        <li><a class="pagination-link is-current" href="/i2p2018/">1</a></li>
+        
+        <li><a class="pagination-link" href="/i2p2018/page/2/">2</a></li>
+        
+    </ul>
+</nav>
     
     </div>
 </section>
