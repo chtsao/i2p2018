@@ -110,6 +110,58 @@
         <article class="article content gallery" itemscope itemprop="blogPost">
     <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
         
+            <a href="/i2p2018/2018/11/28/w12/" itemprop="url">Week 12. 轉化 From X to g(X)</a>
+        
+    </h1>
+    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
+        <span class="column is-narrow">
+            <time datetime="2018-11-28T04:53:31.000Z" itemprop="datePublished">Nov 28 2018</time>
+        </span>
+        
+        
+        <span class="column is-narrow">
+            
+            
+            3 minutes read (About 481 words)
+        </span>
+        
+    </div>
+    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
+    
+        <h3 id="轉換，轉化"><a href="#轉換，轉化" class="headerlink" title="轉換，轉化"></a>轉換，轉化</h3><p><img src="https://browse.startpage.com/do/show_picture.pl?l=english&amp;rais=1&amp;oiu=https%3A%2F%2Fi0.wp.com%2Fwp-corp.qoo-app.com%2Fwp-content%2Fuploads%2F2018%2F08%2F18082405411061.jpg&amp;sp=3e35ff47a737987b933cf40221d7ffa3&amp;t=nite" alt="Transform"><br>這門課，乃至於在大學課程中所學的隨機變數如Bernoulli, Binomial, Discrete Uniform; Uniform, Normal 等，都是如樂高積木的基本建構元件/模型。真實世界中的不確定現象，隨機性往往需要更複雜的模型。而<strong>函數</strong>正式我們由這些簡單元件堆疊出更複雜模型的一個非常重要的方式。</p>
+<blockquote>
+<p>If X is a random variable and  g is  Borel-measurable<br>then  g(X) is again a random variable. </p>
+</blockquote>
+<p>以這門課來說，我們所使用的函數都是你所熟悉的函數，如<br>\(g(x)=a x +b,  \   g(x)=x^3 +2x \)<br>他們延伸出的 Y=g(X) 也都是隨機變數。</p>
+<h3 id="What-is-g-X"><a href="#What-is-g-X" class="headerlink" title="What is g(X)?"></a>What is g(X)?</h3><p>但如何知道他們是什麼隨機變數呢？（這個問題翻成白話就是：Y的cdf \(F_Y(y)\), pdf/pmf \(f_Y(y)\), mgf  \( m_Y(t) \) 只要找出三者之一，就完全刻劃了這個隨機變數）<br><strong>一般常用法</strong></p>
+<ol>
+<li>找出 \( F_Y(y)\) 與 \(F_X(x) \) 之間的關聯</li>
+<li>找出 \( M_Y(t)\) 與 \( M_X(t)\) 之間的關聯，當 g(x) = a x +b 時特別好用</li>
+<li>找出 \( f_Y(y)\) 與 \(f_X(x) \) 之間的關聯。當 f 是 pmf 時比較方便，f 是 pdf 時需要透過 F 的微分完成。當然，有一些一般的公式可以幫助計算，數統時會教。<br>###例：</li>
+</ol>
+<ul>
+<li>X ~ U(0,1). Find cdf and pdf of Y where<br>a. \(Y=g(X)=X^3\),<br>b.\(Y=g(X)=(X-0.5)^2\).</li>
+<li>\( X \sim N(\mu, \sigma^2) \). Find pdf and cdf of<br>$$Z= \frac{X-\mu}{\sigma}$$</li>
+<li>\( X \sim N(\mu, \sigma^2) \). Find pdf and cdf of<br>$$Y= a X + b$$ where a, b are real numbers. </li>
+</ul>
+<h3 id="Expectation-and-Variance"><a href="#Expectation-and-Variance" class="headerlink" title="Expectation and Variance"></a>Expectation and Variance</h3><ul>
+<li>\( E(a X +b) = a E(X) +b \)</li>
+<li>\( Var(aX+b) = a^2 Var(X)\)<br>provided E(X) and Var(X) both exist.</li>
+</ul>
+
+    
+    </div>
+    
+    
+</article>
+
+
+
+
+    
+        <article class="article content gallery" itemscope itemprop="blogPost">
+    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
+        
             <a href="/i2p2018/2018/11/23/w11/" itemprop="url">Week 11. Continuous Random Variable-III</a>
         
     </h1>
@@ -503,56 +555,6 @@
 <li>P, the probability function</li>
 </ol>
 <p>Two-envelop problem or switching paradox: What’s wrong with the argument?</p>
-
-    
-    </div>
-    
-    
-</article>
-
-
-
-
-    
-        <article class="article content gallery" itemscope itemprop="blogPost">
-    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
-        
-            <a href="/i2p2018/2018/10/27/w01/" itemprop="url">Week 1. x to X</a>
-        
-    </h1>
-    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
-        <span class="column is-narrow">
-            <time datetime="2018-10-27T13:19:57.000Z" itemprop="datePublished">Oct 27 2018</time>
-        </span>
-        
-        
-        <span class="column is-narrow">
-            
-            
-            2 minutes read (About 369 words)
-        </span>
-        
-    </div>
-    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
-    
-        <h4 id="這門課在學什麼：-基礎機率，為何要學，它是什麼？要如何理解與應用它？（-Why-What-How-）"><a href="#這門課在學什麼：-基礎機率，為何要學，它是什麼？要如何理解與應用它？（-Why-What-How-）" class="headerlink" title="這門課在學什麼： 基礎機率，為何要學，它是什麼？要如何理解與應用它？（ Why? What? How? ）"></a>這門課在學什麼： 基礎機率，為何要學，它是什麼？要如何理解與應用它？（ Why? What? How? ）</h4><ul>
-<li>我們生活在一個充滿不確定，隨機與大大小小誤差的世界</li>
-<li>機率(與統計)是處理這些不確定/隨機/誤差的思考架構與處理想法/手法/程序的一個知識體</li>
-<li>當我們具備有機率/統計一定程度的了解後，我們可以在這些紊亂中更有效的扒梳一些頭緒，犯較少錯誤；更進一步地，做出比較合理的判斷與預測</li>
-</ul>
-<h4 id="From-x-to-X"><a href="#From-x-to-X" class="headerlink" title="From x to X"></a>From x to X</h4><ul>
-<li>簡單說，這門課可以視為我們學習由 x 到 X 的開始。 （小寫  x,  大寫  X)</li>
-<li><p>回顧：數，未知數，隨機變數</p>
-<ul>
-<li>例一：87, x, X (分別對應);  如： 某人的成績，某人的（未知）成績，該班同學的成績</li>
-<li>例二：170，x, X (分別對應); 如： 某人某次身高測量值，某人某次的（未知）測量值，某人身高測量值 </li>
-</ul>
-<p>X, 如某班同學某次期中考的成績，東華彭魚雁身高的測量值</p>
-</li>
-<li><p>n 個觀察值的 枝葉圖，長條圖 （stem-and-leaf plot, histogram）</p>
-</li>
-<li>極限（$ n \rightarrow \infty $）標準化後(使得面積為 1）長條圖 ~~ 某些函數來反應/代表這樣的整體狀況</li>
-</ul>
 
     
     </div>
