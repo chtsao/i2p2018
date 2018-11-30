@@ -2,7 +2,7 @@
 <html class="has-navbar-fixed-top">
 <head>
     <meta charset="utf-8">
-<title>Week 11. Continuous Random Variable-III - Intro to Probability 2018</title>
+<title>Tag: transformation, characterization, mgf, Chebyshev&#39;s inequality, probability integral formula - Intro to Probability 2018</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.css">
@@ -14,19 +14,16 @@
 
 
 
-    <meta name="description" content="Normal Random Variable \( X \sim N(\mu, \sigma^2)  \Rightarrow \frac{X - \mu}{\sigma} = Z \sim N(0,1) \).這是一個非常OP的定理。因為它使得任何一般常態隨機變數的機率計算都可以轉化為標準常態隨機變數的機率計算。具體來說 For any 0&amp;lt;a&amp;lt;b,$$P(a&amp;lt;X&amp;lt;b)=\">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Week 11. Continuous Random Variable-III">
-<meta property="og:url" content="https://chtsao.github.io/i2p2018/2018/11/23/w11/index.html">
+    <meta name="description" content="Course Web I2P 2018">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Intro to Probability 2018">
+<meta property="og:url" content="https://chtsao.github.io/i2p2018/tags/transformation-characterization-mgf-Chebyshev-s-inequality-probability-integral-formula/index.html">
 <meta property="og:site_name" content="Intro to Probability 2018">
-<meta property="og:description" content="Normal Random Variable \( X \sim N(\mu, \sigma^2)  \Rightarrow \frac{X - \mu}{\sigma} = Z \sim N(0,1) \).這是一個非常OP的定理。因為它使得任何一般常態隨機變數的機率計算都可以轉化為標準常態隨機變數的機率計算。具體來說 For any 0&amp;lt;a&amp;lt;b,$$P(a&amp;lt;X&amp;lt;b)=\">
+<meta property="og:description" content="Course Web I2P 2018">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="https://colourmesocial.co.uk/wp-content/uploads/2015/10/moments-main.png">
-<meta property="og:updated_time" content="2018-11-28T06:33:12.567Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Week 11. Continuous Random Variable-III">
-<meta name="twitter:description" content="Normal Random Variable \( X \sim N(\mu, \sigma^2)  \Rightarrow \frac{X - \mu}{\sigma} = Z \sim N(0,1) \).這是一個非常OP的定理。因為它使得任何一般常態隨機變數的機率計算都可以轉化為標準常態隨機變數的機率計算。具體來說 For any 0&amp;lt;a&amp;lt;b,$$P(a&amp;lt;X&amp;lt;b)=\">
-<meta name="twitter:image" content="https://colourmesocial.co.uk/wp-content/uploads/2015/10/moments-main.png">
+<meta name="twitter:title" content="Intro to Probability 2018">
+<meta name="twitter:description" content="Course Web I2P 2018">
 
 
 
@@ -107,68 +104,58 @@
     </div>
 </nav>
 
-    <section class="section">
+    <section class="section section-heading">
     <div class="container">
-    <article class="article content gallery" itemscope itemprop="blogPost">
+        <div class="content">
+            <h5>#transformation, characterization, mgf, Chebyshev&#39;s inequality, probability integral formula</h5>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+    
+        <article class="article content gallery" itemscope itemprop="blogPost">
     <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
         
-            Week 11. Continuous Random Variable-III
+            <a href="/i2p2018/2018/11/30/w12b/" itemprop="url">Week 12.2. Transformation, characterization and profiling</a>
         
     </h1>
     <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
         <span class="column is-narrow">
-            <time datetime="2018-11-22T17:26:12.000Z" itemprop="datePublished">Nov 23 2018</time>
+            <time datetime="2018-11-29T22:58:22.000Z" itemprop="datePublished">Nov 30 2018</time>
         </span>
         
         
         <span class="column is-narrow">
             
             
-            2 minutes read (About 265 words)
+            a minute read (About 218 words)
         </span>
         
     </div>
     <div class="article-entry is-size-6-mobile" itemprop="articleBody">
     
-        <h2 id="Normal-Random-Variable"><a href="#Normal-Random-Variable" class="headerlink" title="Normal Random Variable"></a>Normal Random Variable</h2><ul>
-<li>\( X \sim N(\mu, \sigma^2)  \Rightarrow \frac{X - \mu}{\sigma} = Z \sim N(0,1) \).<br>這是一個非常OP的定理。因為它使得任何一般常態隨機變數的機率計算都可以轉化為標準常態隨機變數的機率計算。具體來說</li>
-<li>For any 0&lt;a&lt;b,<br>$$P(a&lt;X&lt;b)=\Phi( \frac{b-\mu}{\sigma})-\Phi(\frac{a-\mu}{\sigma})$$<br>where \( \Phi(x)=P(Z \leq x),\) cdf of \( Z \sim N(0,1).\)</li>
-<li>Properties of \( \Phi, \phi\) (respectively, cdf and pdf of standard normal Z)</li>
-<li>\( X \sim N(\mu, \sigma^2)\) <ul>
-<li>Verify that pdf of X is indeed a pdf</li>
-<li>\( E(X)=\mu,\ Var(X)= \sigma^2. \)</li>
-<li>Moment-generating function of X<br>$$M(t)=E(e^{tX}) = \exp({\mu t + \frac{\sigma^2 t^2}{2}}) $$</li>
-</ul>
-</li>
-</ul>
-<h2 id="Moment-generating-function"><a href="#Moment-generating-function" class="headerlink" title="Moment-generating function"></a>Moment-generating function</h2><p><img src="https://colourmesocial.co.uk/wp-content/uploads/2015/10/moments-main.png" alt="Moments"><br>$$M(t)=E(e^{tX}). $$</p>
+        <p><img src="https://www.birmingham.ac.uk/Images/College-ArtsLaw-only/english/research/art-identification-project.jpg" alt="Identification"></p>
+<h3 id="Profiling-a-random-variable"><a href="#Profiling-a-random-variable" class="headerlink" title="Profiling a random variable"></a>Profiling a random variable</h3><p> E(X) 與 Var(X) 可以理解為一個隨機變數的快照：E(X) 大致描述X的中央趨勢 (central tendency)而 Var(X) 則反映 X 的分散程度。更進一步<br><strong>Chebyshev’s Inequality</strong><br>Let X be a random variable with mean \( E(X)= \mu, Var(X)=\sigma^2 \). Then for any c &gt;0,<br>$$ P(|X-\mu| \geq c) \leq \frac{Var(X)}{c^2}.$$<br>ref: Textbook: 13.2, page 183</p>
+<p><strong>Remark</strong></p>
 <ul>
-<li><strong>小用</strong>：計算/生成moments: for k, a positive integer<br>$$E(X^k) = M^{(k)}(0)= M^{(k)}(t) |_{t=0} $$ if exists and  \( M^{(k)}(t)\) is the k-th derivative of M(t).</li>
-<li><strong>大用</strong>：Identify the random variable. If exists, moment-generating function uniquely determines a random variable. 簡單說，mgf 唯一決定一個隨機變數。也就是說，若有兩個隨機變數有相同的 mgf 則他們有相同的分配。 </li>
+<li>Chebyshev’s bound is universal, i.e. for any random variable with finite mean and variance. Therefore, it may not be sharp for some random variables. Besides, it does not work well when c is small. </li>
+<li>Example: Let X be \( N(\mu, \sigma^2)\) and take \( c=\sigma/2, \sigma, 2 \sigma \). Compute<br>$$ P(|X-\mu| \geq c) $$<br>and compare with the Chebyshev’s bound. </li>
 </ul>
+<h3 id="Probability-Integral-formula"><a href="#Probability-Integral-formula" class="headerlink" title="Probability Integral formula"></a>Probability Integral formula</h3><p>Let X be a random variable with cdf F. Then \( F(X) \sim U(0,1). \)<br>Hint of proof. You may start by assuming F has a inverse funciton \( F_{-1}\) to get some ideas about what’s going on. However, PIF holds without this assumption. </p>
+<h3 id="Homework-6"><a href="#Homework-6" class="headerlink" title="Homework 6"></a>Homework 6</h3><p>Textbook Sec 7.6: 7.2,  7.4, 7.8, 7.9, 7.15, 7.17;  Sec 13.6:  13.1. </p>
 
     
     </div>
     
-    
-    <div class="columns is-mobile is-multiline article-nav">
-        <span class="column is-12-mobile is-half-desktop  article-nav-prev">
-            
-            <a href="/i2p2018/2018/11/28/w12/">Week 12.1. 轉化 From X to g(X)</a>
-            
-        </span>
-        <span class="column is-12-mobile is-half-desktop  article-nav-next">
-            
-            <a href="/i2p2018/2018/11/15/w10/">Week 10. Continuous Random Variable-II</a>
-            
-        </span>
-    </div>
     
 </article>
 
 
 
 
+    
+    
     </div>
 </section>
     <footer class="footer">
