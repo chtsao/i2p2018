@@ -129,20 +129,32 @@
         <span class="column is-narrow">
             
             
-            a minute read (About 118 words)
+            2 minutes read (About 339 words)
         </span>
         
     </div>
     <div class="article-entry is-size-6-mobile" itemprop="articleBody">
     
-        <h3 id="Definition"><a href="#Definition" class="headerlink" title="Definition"></a>Definition</h3><p>\( X_1, \cdots, X_n\) are <strong>indepdendent</strong><br>iff for all \(x_1, \cdots, x_n \in R\)<br>$$ f_{X_1, \cdots, X_n}(x_1, \cdots, x_n)= \Pi_{i=1}^n f_{X_i}(x_i).$$<br>iff for all \(x_1, \cdots, x_n \in R\)<br>$$ F_{X_1, \cdots, X_n}(x_1, \cdots, x_n)= \Pi_{i=1}^n F_{X_i}(x_i).$$</p>
-<h3 id="Implications"><a href="#Implications" class="headerlink" title="Implications"></a>Implications</h3><ul>
+        <h3 id="Definition"><a href="#Definition" class="headerlink" title="Definition"></a>Definition</h3><h4 id="Independence"><a href="#Independence" class="headerlink" title="Independence"></a>Independence</h4><p>\( X_1, \cdots, X_n\) are <strong>indepdendent</strong><br>iff for all \(x_1, \cdots, x_n \in R\)<br>$$ f_{X_1, \cdots, X_n}(x_1, \cdots, x_n)= \Pi_{i=1}^n f_{X_i}(x_i).$$<br>iff for all \(x_1, \cdots, x_n \in R\)<br>$$ F_{X_1, \cdots, X_n}(x_1, \cdots, x_n)= \Pi_{i=1}^n F_{X_i}(x_i).$$</p>
+<h4 id="iid-independently-identically-distributioned"><a href="#iid-independently-identically-distributioned" class="headerlink" title="iid (independently identically distributioned)"></a>iid (independently identically distributioned)</h4><p>We say \( X_1, \cdots, X_n \) are <strong>iid</strong> if</p>
+<ol>
+<li>\( X_1, \cdots, X_n\) are indepdendent </li>
+<li>They have the same distribution, ie, \( F_{i}(x)=F(x), f_{X_i}(x)=f(x)\) for all i and where  \( F_{i}(x),  f_{X_i}(x) \) is the (marginal) cdf and pdf/pmf of \(X_i \) respectively.  <h3 id="Implications"><a href="#Implications" class="headerlink" title="Implications"></a>Implications</h3>If  \( X_1, \cdots, X_n\) are indepdendent then</li>
+</ol>
+<ul>
 <li><p>Probability $$ P(X_1 \in A_1, \cdots, X_n \in A_n)= \Pi_{i=1}^n P(X_i \in A_i).$$</p>
 </li>
 <li><p>For any functions \( g_i, \ i=1, \cdots, n\)<br>$$E(\Pi_{i=1}^n g_i(X_i))= \Pi_{i=1}^n E( g_i(X_i)$$<br>provided  the expectations on the right-hand side exist.  </p>
 </li>
+<li><p>It is much easier to work out what \( Y=g(X_1, \cdots, X_n )\) is (ie, find out what its cdf or pdf/pmf or mgf is) or at least some snapshots such as expectation, variance or moments of \( Y\).</p>
+</li>
 </ul>
-<h2 id="Homework"><a href="#Homework" class="headerlink" title="Homework"></a>Homework</h2><p>Textbook: Sec. 8.6: 8.1, 8.5, 8.6, 8.9; Sec 9.7: 9.1, 9.3, 9.5, 9.10, 9.11, 9.12. Sec 10.5: 10.2, 10.6, 10.8, 10.16.</p>
+<h3 id="Illustrations"><a href="#Illustrations" class="headerlink" title="Illustrations"></a>Illustrations</h3><ul>
+<li>Let \( X_1, \cdots, X_n \sim_{iid} Bernoulli(p), p \in (0,1)\) then<br>$$ \sum_{i=1}^n X_i \sim Bin(n, p).$$ </li>
+<li>Let \( X_1, \cdots, X_n \sim_{iid} N(\mu, \sigma^2))\) then<br>$$ \bar{X}=\frac{1}{n}\sum_{i=1}^n X_i \sim N(\mu, \frac{\sigma^2}{n}).$$ </li>
+<li>Even when the distribution is only known to expectation and variance, we can still get some “pictures” of it. In the sense,<br>if \( X_1, \cdots, X_n \sim_{iid}\) with \( \mu=E(X_i), \sigma^2=Var(X_i)\) then<br>$$ E(\bar{X})= \mu, Var(\bar{X})=\frac{\sigma^2}{n}.<br>$$<br>Note that this is consistent with our Bernoulli and normal cases. </li>
+</ul>
+<h2 id="Homework"><a href="#Homework" class="headerlink" title="Homework"></a>Homework</h2><p>Textbook: Sec. 8.6: 8.1, 8.5, 8.6, 8.9; Sec 9.7: 9.1, 9.3, 9.5, 9.10, 9.11, 9.12. Sec 10.5: 10.2, 10.6, 10.8, 10.16. To be discussed in class 12/27.</p>
 
     
     </div>
