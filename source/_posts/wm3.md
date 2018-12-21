@@ -14,6 +14,7 @@ $$ F_{X_1, \cdots, X_n}(x_1, \cdots, x_n)= \Pi_{i=1}^n F_{X_i}(x_i).$$
 We say \\( X_1, \cdots, X_n \\) are **iid** if
 1.  \\( X_1, \cdots, X_n\\) are indepdendent 
 2. They have the same distribution, ie, \\( F_{i}(x)=F(x), f_{X_i}(x)=f(x)\\) for all i and where  \\( F_{i}(x),  f_{X_i}(x) \\) is the (marginal) cdf and pdf/pmf of \\(X_i \\) respectively.  
+
 ### Implications   
 If  \\( X_1, \cdots, X_n\\) are indepdendent then
 * Probability $$ P(X_1 \in A_1, \cdots, X_n \in A_n)= \Pi_{i=1}^n P(X_i \in A_i).$$
@@ -35,5 +36,5 @@ $$ \bar{X}=\frac{1}{n}\sum_{i=1}^n X_i \sim N(\mu, \frac{\sigma^2}{n}).$$
 $$
 Note that this is consistent with our Bernoulli and normal cases. 
 
-## Homework
+### Homework 7
 Textbook: Sec. 8.6: 8.1, 8.5, 8.6, 8.9; Sec 9.7: 9.1, 9.3, 9.5, 9.10, 9.11, 9.12. Sec 10.5: 10.2, 10.6, 10.8, 10.16. To be discussed in class 12/27.
