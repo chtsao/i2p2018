@@ -14,3 +14,7 @@ $$ \bar{X}=\frac{1}{n}\sum_{i=1}^n X_i$$
 
 #### Law of Large Numbers
 #### Central Limit Theorem
+
+### Homework  8
+Textbook Sec 11.5: 11.3, 11.4. To be discussed 01/04 in class.
+
