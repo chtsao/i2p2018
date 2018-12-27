@@ -3,6 +3,7 @@ title: Week D-2. Approximation of Xbar
 date: 2018-12-27 15:07:29
 tags: Law of Large Numbers, Central Limit Theorem
 ---
+![Pig] (https://woolwoolfelt.com/wp-content/uploads/2017/07/pinkoipig-1.jpg)
 #### Motivation
 平均，特別是由同一母體獨立抽出樣本的平均
 在機率與統計中都有重要的地位。Precisely, assume \\( X_1, \cdots X_n \sim_{iid}\\) and 
