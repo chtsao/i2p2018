@@ -3,11 +3,8 @@ title: Week D-3. Independence of random variables
 date: 2018-12-20 03:21:03
 tags: Independence, iid, sum of random variables
 ---
-<<<<<<< HEAD
 ![Bourne Identity](https://usercontent2.hubstatic.com/13814085_f520.jpg)
-=======
-![Independence](https://usercontent2.hubstatic.com/13814085_f520.jpg)
->>>>>>> d271fdb5e8c30292738729c4e5fff4c7080f0e66
+
 ### Definition 
 #### Independence
 \\( X_1, \cdots, X_n\\) are **indepdendent**
