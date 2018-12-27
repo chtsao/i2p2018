@@ -4,6 +4,7 @@ date: 2018-12-27 15:07:29
 tags: Law of Large Numbers, Central Limit Theorem
 ---
 ![Happy PYear!](https://i.chzbgr.com/full/6792468992/hC9A79C77/)
+
 #### Motivation
 平均，特別是由同一母體獨立抽出樣本的平均
 在機率與統計中都有重要的地位。Precisely, assume \\( X_1, \cdots X_n \sim_{iid}\\) and 
@@ -13,9 +14,15 @@ $$ \bar{X}=\frac{1}{n}\sum_{i=1}^n X_i$$
 當\\(X_1, \cdots, X_n \sim_{iid}\\) 但詳細分配不知道，僅知道 
 \\( \mu = E(X_i), \sigma^2=Var(X_i )\\) 時，想要完整刻劃 \\(\bar{X}\\)的分配當然不可能。但是如果樣本數夠大時，它卻可以透過兩個強大的定理來了解。
 
-#### Law of Large Numbers
-#### Central Limit Theorem
+##### Law of Large Numbers
+##### Central Limit Theorem
 
-### Homework  8
+#### Final Exam 
+Date: 2019 0108 (Tue) 
+Time: 1310-1440 
+Place: TBA
+考試不難，會就簡單。提早準備！
+
+#### Homework  8
 Textbook Sec 11.5: 11.3, 11.4. To be discussed 01/04 in class.
 
